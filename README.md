@@ -1,3 +1,8 @@
 # 目录结构
 
-## 1. [javascript](javascript)语法练习
+```text
+.
+└── javascript
+    ├── ch1 helloworld
+    └── ch2 语法结构
+```
