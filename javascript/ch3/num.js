@@ -60,3 +60,30 @@ console.log(Symbol.keyFor(t));
 const ss = 'hello';
 console.log(ss.toUpperCase());
 console.log(ss);
+
+const obj = { x: 1 };
+console.log(obj);
+obj.x = '1';
+obj.y = '2';
+console.log(obj);
+obj.x = 3;
+console.log(obj);
+
+const arr = [1, 2, 3];
+console.log(arr);
+arr[0] = -1;
+console.log(arr);
+
+const aArr = [1, 2, 3];
+const bArr = Array.from(aArr);
+console.log(bArr);
+
+// 类型转换
+console.log('10' + 'object');
+console.log('7' * '4');
+console.log(String(null));
+console.log(String(undefined));
+
+console.log({ x: 1, y: 1 }.toString());
+console.log([1, 2, 3].toString());
+console.log(function add(xz) { const aa = xz; return aa + 1; }.toString());
