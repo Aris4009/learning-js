@@ -1,0 +1,25 @@
+{
+  "name": "learning-js",
+  "version": "1.0.0",
+  "description": "learning-js",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aris4009/learning-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aris4009/learning-js/issues"
+  },
+  "homepage": "https://github.com/Aris4009/learning-js#readme"
+}
